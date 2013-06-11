@@ -1,0 +1,55 @@
+Partlist
+
+Exported from Frogduino.sch at 6/11/2013 8:16:19 AM
+
+EAGLE Version 6.4.0 Copyright (c) 1988-2013 CadSoft
+
+Assembly variant: 
+
+Part        Value                    Device                   Package               Library                    Sheet
+
++12V        M023.5MM                 M023.5MM                 SCREWTERMINAL-3.5MM-2 SparkFun-Connectors        1
+24V-IN      M023.5MM                 M023.5MM                 SCREWTERMINAL-3.5MM-2 SparkFun-Connectors        1
+24V-OUT     M023.5MM                 M023.5MM                 SCREWTERMINAL-3.5MM-2 SparkFun-Connectors        1
+AC-IN       M023.5MM                 M023.5MM                 SCREWTERMINAL-3.5MM-2 SparkFun-Connectors        1
+AC-OUT      M023.5MM                 M023.5MM                 SCREWTERMINAL-3.5MM-2 SparkFun-Connectors        1
+BACKLIGHT   M023.5MM                 M023.5MM                 SCREWTERMINAL-3.5MM-2 SparkFun-Connectors        1
+C1-10UF                              CAP_POLPTH2              CPOL-RADIAL-10UF-25V  SparkFun-Capacitors        1
+C1-16MHZ                             CRYSTALHC49US            HC49US                SparkFun-FreqCtrl          1
+C2-10UF                              CAP_POLPTH2              CPOL-RADIAL-10UF-25V  SparkFun-Capacitors        1
+C3-22PF                              CAPKIT                   CAP-PTH-SMALL-KIT     SparkFun-Capacitors        1
+C4-22PF                              CAPKIT                   CAP-PTH-SMALL-KIT     SparkFun-Capacitors        1
+D1                                   DIODEPTH                 DIODE-1N4001          SparkFun-DiscreteSemi      1
+D2                                   DIODEPTH                 DIODE-1N4001          SparkFun-DiscreteSemi      1
+D3                                   DIODEPTH                 DIODE-1N4001          SparkFun-DiscreteSemi      1
+D4                                   DIODEPTH                 DIODE-1N4001          SparkFun-DiscreteSemi      1
+D5                                   DIODEPTH                 DIODE-1N4001          SparkFun-DiscreteSemi      1
+FAN         M023.5MM                 M023.5MM                 SCREWTERMINAL-3.5MM-2 SparkFun-Connectors        1
+FANRELAY    RELAYPTH                 RELAYPTH                 RELAY-G5Q             SparkFun-Electromechanical 1
+FLOATSWITCH M023.5MM                 M023.5MM                 SCREWTERMINAL-3.5MM-2 SparkFun-Connectors        1
+FOGGERRELAY RELAYPTH                 RELAYPTH                 RELAY-G5Q             SparkFun-Electromechanical 1
+HEATERRELAY RELAYPTH                 RELAYPTH                 RELAY-G5Q             SparkFun-Electromechanical 1
+HUMIDITY                             M03SCREW                 SCREWTERMINAL-3.5MM-3 SparkFun-Connectors        1
+IC1                                  V_REG_78XX-TO-220        TO-220-ALT            SparkFun-PowerIC           1
+IC2         24AA256P                 24AA256P                 DIL8                  microchip                  1
+LCD                                  M04PTH                   1X04                  SparkFun-Connectors        1
+LED1                                 LED5MM                   LED5MM                SparkFun-LED               1
+Q1          MOSFET-NCHANNELFQP30N06L MOSFET-NCHANNELFQP30N06L TO220V                SparkFun-DiscreteSemi      1
+R1-330                               R-US_0204/5              0204/5                resistor                   1
+R2-330                               R-US_0204/5              0204/5                resistor                   1
+R3-330                               R-US_0204/5              0204/5                resistor                   1
+R4-10K                               R-US_0204/5              0204/5                resistor                   1
+R5-10K                               R-US_0204/5              0204/5                resistor                   1
+R6-10K                               R-US_0204/5              0204/5                resistor                   1
+R7-10K                               R-US_0204/5              0204/5                resistor                   1
+R8-10K                               R-US_0204/5              0204/5                resistor                   1
+R9                                   R-US_0204/5              0204/5                resistor                   1
+R10                                  R-US_0204/5              0204/5                resistor                   1
+R11                                  R-US_0204/5              0204/5                resistor                   1
+R12                                  R-US_0204/5              0204/5                resistor                   1
+RESET       M023.5MM                 M023.5MM                 SCREWTERMINAL-3.5MM-2 SparkFun-Connectors        1
+ROT_ENC                              M05PTH                   1X05                  SparkFun-Connectors        1
+S1          SWITCH-MOMENTARY-2PTH    SWITCH-MOMENTARY-2PTH    TACTILE-PTH           SparkFun-Electromechanical 1
+SERIAL                               M04SCREW                 SCREWTERMINAL-3.5MM-4 SparkFun-Connectors        1
+TEMP                                 M03SCREW                 SCREWTERMINAL-3.5MM-3 SparkFun-Connectors        1
+U1          ATMEGA328P_PDIP          ATMEGA328P_PDIP          DIL28-3               SparkFun-DigitalIC         1

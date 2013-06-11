@@ -1,0 +1,18 @@
+2
+reset button
+12v in*
+fan power*
+fan
+floatswitch
+backlight
+
+3
+humidity sensor
+temp sensor
+
+4
+lcd
+
+5- 
+rotary encoder
+asdf

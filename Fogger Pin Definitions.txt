@@ -1,0 +1,20 @@
+A0 - BACKLIGHT_BTN - Back Light Button
+A1 - RUN_POT - Run Time Pot
+A2 - PAUSE_POT - Pause Time Pot
+A3 - FAN_POT - Fan Speed Pot
+A4 - LCD 1
+A5 - LCD 2
+
+D0 - Relay 1
+D1 - Relay 2
+D2 - Relay 3
+D3 - Relay 4
+D4 - Unused
+D5 - Float Switch
+D6 - Humidity Sensor
+D7 - Unused
+D8 - Unused/Re filler Float Switch
+D9 - Water Temperature Sensor
+D10 - Unused
+D11 - Fan PWM
+D12 - Unused
