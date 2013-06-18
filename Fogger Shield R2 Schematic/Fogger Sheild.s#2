@@ -6199,7 +6199,7 @@ These are standard reverse protection diodes and small signal diodes. SMA packag
 </class>
 </classes>
 <parts>
-<part name="U1" library="SparkFun-Boards" deviceset="ARDUINO_SHIELD" device="LABEL"/>
+<part name="U1" library="SparkFun-Boards" deviceset="ARDUINO_SHIELD" device="NO_SILK" value="ARDUINO_SHIELDNO_SILK"/>
 <part name="R1" library="resistor" deviceset="R-US_" device="0204/5" value="10K"/>
 <part name="R2" library="resistor" deviceset="R-US_" device="0204/2V" value="10K"/>
 <part name="R3" library="resistor" deviceset="R-US_" device="0204/2V" value="10K"/>
@@ -6331,13 +6331,6 @@ These are standard reverse protection diodes and small signal diodes. SMA packag
 <wire x1="93.98" y1="50.8" x2="86.36" y2="50.8" width="0.2032" layer="91"/>
 </segment>
 </net>
-<net name="GND" class="0">
-<segment>
-<pinref part="U1" gate="G$1" pin="GND@0"/>
-<wire x1="33.02" y1="35.56" x2="25.4" y2="27.94" width="0.1524" layer="91"/>
-<label x="25.4" y="25.4" size="1.778" layer="95"/>
-</segment>
-</net>
 <net name="N$7" class="0">
 <segment>
 <pinref part="RUN_POT" gate="G$1" pin="3"/>
@@ -6400,19 +6393,6 @@ These are standard reverse protection diodes and small signal diodes. SMA packag
 <wire x1="-5.08" y1="12.7" x2="-17.78" y2="12.7" width="0.1524" layer="91"/>
 <wire x1="-17.78" y1="12.7" x2="-22.86" y2="12.7" width="0.2032" layer="91"/>
 <junction x="-17.78" y="12.7"/>
-</segment>
-</net>
-<net name="N$12" class="0">
-<segment>
-<wire x1="2.54" y1="10.16" x2="0" y2="10.16" width="0.2032" layer="91"/>
-<pinref part="+12V_IN" gate="G$1" pin="2"/>
-<junction x="-17.78" y="10.16"/>
-<wire x1="0" y1="10.16" x2="-17.78" y2="10.16" width="0.2032" layer="91"/>
-<wire x1="-17.78" y1="10.16" x2="-22.86" y2="10.16" width="0.2032" layer="91"/>
-<pinref part="U1" gate="G$1" pin="GND@1"/>
-<wire x1="2.54" y1="10.16" x2="0" y2="10.16" width="0.2032" layer="91"/>
-<wire x1="33.02" y1="38.1" x2="30.48" y2="38.1" width="0.2032" layer="91"/>
-<wire x1="30.48" y1="38.1" x2="2.54" y2="10.16" width="0.2032" layer="91"/>
 </segment>
 </net>
 <net name="N$14" class="0">
@@ -6668,6 +6648,16 @@ These are standard reverse protection diodes and small signal diodes. SMA packag
 <wire x1="111.76" y1="22.86" x2="121.92" y2="22.86" width="0.1524" layer="91"/>
 <label x="114.3" y="22.86" size="1.778" layer="95"/>
 <junction x="111.76" y="22.86"/>
+</segment>
+</net>
+<net name="N$10" class="0">
+<segment>
+<pinref part="+12V_IN" gate="G$1" pin="2"/>
+<wire x1="-17.78" y1="10.16" x2="-22.86" y2="10.16" width="0.2032" layer="91"/>
+<pinref part="U1" gate="G$1" pin="GND@1"/>
+<wire x1="33.02" y1="38.1" x2="2.54" y2="10.16" width="0.2032" layer="91"/>
+<wire x1="2.54" y1="10.16" x2="-17.78" y2="10.16" width="0.2032" layer="91"/>
+<junction x="-17.78" y="10.16"/>
 </segment>
 </net>
 </nets>
